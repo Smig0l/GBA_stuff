@@ -12,7 +12,7 @@ For the correct addresses we can refer to [this](https://github.com/Gamer2020/Po
 <h3> Other tools: </h3>
 - [PGE](https://github.com/Gamer2020/PokemonGameEditor): this editor supports BPEI.<br>
 - [Advanced Map Editor](http://getam.no-ip.info/?ver=1.95): to be tested.<br>
-
+<br>
 References/useful info:
-[forum in ita](https://www.pokemonhacking.it/showthread.php?tid=4014)
+[Forum in ita](https://www.pokemonhacking.it/showthread.php?tid=4014)
 
