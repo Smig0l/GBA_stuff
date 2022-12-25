@@ -74,6 +74,18 @@ Address = 0x30FA1C
 Format = '''[structType.trainerStructType class.data.trainers.classes.names introMusicAndGender.|t|music:::.|female. sprite.graphics.trainers.sprites.front name""12 prizeMoney|=4*(data.trainers.money/class=class)/moneyrate*pokemon/last/level item1:data.items.stats item2:data.items.stats item3:data.items.stats item4:data.items.stats doubleBattle::doublebattleflag ai|b[]traineraibits | pokemonCount:: pokemon<`tpt`>]855'''
 DefaultHash = '''09C51463'''
 
+[[NamedAnchors]]
+Name = '''graphics.trainers.sprites.front'''
+Address = 0x305018
+Format = '''[sprite<`lzs4x8x8|graphics.trainers.palettes.front`> uncompressedLength: index:]93'''
+DefaultHash = '''03CEF99E'
+
+[[NamedAnchors]]
+Name = '''graphics.trainers.palettes.front'''
+Address = 0x305300
+Format = '''[palette<`lzp4`> index: unused:]graphics.trainers.sprites.front'''
+DefaultHash = '''C6C97AF8'''
+
 [[List]]
 Name = '''egggroups'''
 DefaultHash = '''4CF53988'''
