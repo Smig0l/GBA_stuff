@@ -15,5 +15,6 @@ For the correct addresses we can refer to [this](https://github.com/Gamer2020/Po
 
 <br>
 References/useful info:
-[Forum in ita](https://www.pokemonhacking.it/showthread.php?tid=4014)
+[Forum in ita](https://www.pokemonhacking.it/showthread.php?tid=4014).<br>
+scripting: https://www.pokecommunity.com/showthread.php?t=164276
 
