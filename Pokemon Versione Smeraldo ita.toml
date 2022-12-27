@@ -1,6 +1,6 @@
 [General]
 ApplicationVersion = '''0.5.0'''
-FreeSpaceSearch = '''000200'''
+FreeSpaceSearch = '''E3CFE8'''
 FreeSpaceBuffer = '''040'''
 NextExportID = '''0'''
 ShowRawIVByteForTrainer = False
@@ -24,6 +24,96 @@ Address = 0x0000B0
 Format = '''`asc`2'''
 DefaultHash = ''''''
 
+[[NamedAnchors]]
+Name = '''data.trainers.stats'''
+Address = 0x30FA1C
+Format = '''[structType.trainerStructType class.data.trainers.classes.names introMusicAndGender.|t|music:::.|female. sprite.graphics.trainers.sprites.front name""12 prizeMoney|=4*(data.trainers.money/class=class)/moneyrate*pokemon/last/level item1:data.items.stats item2:data.items.stats item3:data.items.stats item4:data.items.stats doubleBattle::doublebattleflag ai|b[]traineraibits | pokemonCount:: pokemon<`tpt`>]855'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.stats'''
+Address = 0x568C80
+Format = '''[hp. attack. def. speed. spatk. spdef. type1.data.pokemon.type.names type2.data.pokemon.type.names catchRate. baseExp. evs:|t|hp:|atk:|def:|spd:|spatk:|spdef: item1:data.items.stats item2:data.items.stats genderratio.genderratiovalues steps2hatch. basehappiness. growthrate.growthrates egg1.egggroups egg2.egggroups ability1.data.abilities.names ability2.data.abilities.names runrate. dex.|t|color:::.bodycolors|noFlip. padding:]data.pokemon.names'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.abilities.names'''
+Address = 0x31B0DB
+Format = '''[name""13]78'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''scripts.newgame.starters.pokemon'''
+Address = 0x5AE994
+Format = '''[option:data.pokemon.names]scripts.newgame.starters.count'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''graphics.trainers.sprites.front'''
+Address = 0x305018
+Format = '''[sprite<`lzs4x8x8|graphics.trainers.palettes.front`> uncompressedLength: index:]93'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''graphics.trainers.palettes.front'''
+Address = 0x305300
+Format = '''[palette<`lzp4`> index: unused:]graphics.trainers.sprites.front'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.maps.names'''
+Address = 0x5A147C
+Format = '''[x. y. width. height. name<"">]213'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.maps.theme.popup'''
+Address = 0x57F464
+Format = '''[theme.mapnamepopuptheme]data.maps.names+0-109'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''graphics.maps.names.popup.palettes'''
+Address = 0x57F384
+Format = '''`ucp4:012345`'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''graphics.maps.names.popup.outline'''
+Address = 0x57DD04
+Format = '''`ucs4x6x30|graphics.maps.names.popup.palettes`'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''graphics.maps.names.popup.background'''
+Address = 0x57C684
+Format = '''`ucs4x10x18|graphics.maps.names.popup.palettes`'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.maps.banks'''
+Address = 0x486578
+Format = '''[maps<[map<[layout<[width:: height:: borderblock<[border:|h]4> blockmap<`blm`> blockdata1<[isCompressed. isSecondary. padding: tileset<> pal<`ucp4:0123456789ABCDEF`> blockset<> attributes<> animation<>]1> blockdata2<[isCompressed. isSecondary. padding: tileset<> pal<`ucp4:0123456789ABCDEF`> blockset<> attributes<> animation<>]1>]1> events<[objectCount.100 warpCount.100 scriptCount.100 signpostCount.100 objects<[id. graphics. unused:1 x:|z y:|z elevation.10 moveType. range:|t|x::|y:: trainerType: trainerRangeOrBerryID: script<`xse`> flag: unused:]/objectCount> warps<[x:|z y:|z elevation.10 warpID. map. bank.]/warpCount> scripts<[x:|z y:|z elevation:10 trigger: index:: script<`xse`>]/scriptCount> signposts<[x:|z y:|z elevation.10 kind. unused:1 arg::|h]/signpostCount>]1> mapscripts<[type. pointer<>]!00> connections<[count:: connections<[direction:: offset:: mapGroup. mapNum. unused:]/count>]1> music:songnames layoutID:data.maps.layouts+1 regionSectionID.data.maps.names cave. weather. mapType. unused: flags.|t|allowBiking.|allowEscaping.|allowRunning.|showMapName. battleType.]1>]?>]34'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.maps.fly.spawn'''
+Address = 0x59F53C
+Format = '''[bank. map. x: y: unused:]22'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.maps.fly.connections'''
+Address = 0x5A1E3C
+Format = '''[bank. map. flight.]data.maps.names-0-163'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.items.stats'''
+Address = 0x58000C
+Format = '''[name""13 unused. index: price: holdeffect.holdeffects param. description<""> keyitemvalue. bagkeyitem. pocket.pocketid type.|s=pocket(0=itemtype|1=itemtype|3=itemtype|4=itemtype|5=itemtype) fieldeffect<> battleusage:: battleeffect<> battleextra::]377'''
+DefaultHash = ''''''
+
 #################################
 #################################
 #################################
@@ -43,48 +133,6 @@ DefaultHash = '''11367EB2'''
    '''indoor''',
    '''secret_base''',
 ]
-
-[[NamedAnchors]]
-Name = '''data.pokemon.names'''
-Address = 0x317F8C
-Format = '''[name""11]412'''
-DefaultHash = '''747F95CC'''
-
-[[NamedAnchors]]
-Name = '''data.pokemon.stats'''
-Address = 0x568C80
-Format = '''[hp. attack. def. speed. spatk. spdef. type1.data.pokemon.type.names type2.data.pokemon.type.names catchRate. baseExp. evs:|t|hp:|atk:|def:|spd:|spatk:|spdef: item1:data.items.stats item2:data.items.stats genderratio.genderratiovalues steps2hatch. basehappiness. growthrate.growthrates egg1.egggroups egg2.egggroups ability1.data.abilities.names ability2.data.abilities.names runrate. dex.|t|color:::.bodycolors|noFlip. padding:]data.pokemon.names'''
-DefaultHash = '''B7CB43C9'''
-
-[[NamedAnchors]]
-Name = '''data.abilities.names'''
-Address = 0x31B0DB
-Format = '''[name""13]78'''
-DefaultHash = '''691941BB'''
-
-[[NamedAnchors]]
-Name = '''scripts.newgame.starters.pokemon'''
-Address = 0x5AE994
-Format = '''[option:data.pokemon.names]scripts.newgame.starters.count'''
-DefaultHash = '''0B1A0708'''
-
-[[NamedAnchors]]
-Name = '''data.trainers.stats'''
-Address = 0x30FA1C
-Format = '''[structType.trainerStructType class.data.trainers.classes.names introMusicAndGender.|t|music:::.|female. sprite.graphics.trainers.sprites.front name""12 prizeMoney|=4*(data.trainers.money/class=class)/moneyrate*pokemon/last/level item1:data.items.stats item2:data.items.stats item3:data.items.stats item4:data.items.stats doubleBattle::doublebattleflag ai|b[]traineraibits | pokemonCount:: pokemon<`tpt`>]855'''
-DefaultHash = '''09C51463'''
-
-[[NamedAnchors]]
-Name = '''graphics.trainers.sprites.front'''
-Address = 0x305018
-Format = '''[sprite<`lzs4x8x8|graphics.trainers.palettes.front`> uncompressedLength: index:]93'''
-DefaultHash = '''03CEF99E'
-
-[[NamedAnchors]]
-Name = '''graphics.trainers.palettes.front'''
-Address = 0x305300
-Format = '''[palette<`lzp4`> index: unused:]graphics.trainers.sprites.front'''
-DefaultHash = '''C6C97AF8'''
 
 [[List]]
 Name = '''egggroups'''
@@ -995,6 +1043,31 @@ DefaultHash = '''79BD029C'''
 
 #################################
 #################################
+[[GotoShortcut]]
+Name = '''Pokemon'''
+Image = '''graphics.pokemon.sprites.front/295/sprite/'''
+Destination = '''data.pokemon.stats/1'''
+
+[[GotoShortcut]]
+Name = '''Trainers'''
+Image = '''graphics.trainers.sprites.front/3/sprite/'''
+Destination = '''data.trainers.stats'''
+
+[[GotoShortcut]]
+Name = '''Moves'''
+Image = '''graphics.items.sprites/298/sprite/'''
+Destination = '''data.pokemon.moves.stats.battle'''
+
+[[GotoShortcut]]
+Name = '''Items'''
+Image = '''graphics.items.sprites/13/sprite/'''
+Destination = '''data.items.stats'''
+
+[[GotoShortcut]]
+Name = '''Maps'''
+Image = '''data.maps.banks/0/maps/9/map/0/layout/0/blockmap/'''
+Destination = '''maps.0-9 (LITTLEROOT TOWN)'''
+
 #################################
 [[TableGroup]]
 Name = '''Pokemon'''

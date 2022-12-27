@@ -1,5 +1,7 @@
 # ignore ALL .ext files
 *.bak
+*.sav
 
 # ignore ALL files in directoryname/
 /tools
+Pokemon Versione Smeraldo ita.sav
