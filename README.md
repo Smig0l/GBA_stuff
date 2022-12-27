@@ -12,6 +12,7 @@ For the correct addresses we can refer to [this](https://github.com/Gamer2020/Po
 
 <h3> Other tools: </h3>
 - [PGE](https://github.com/Gamer2020/PokemonGameEditor): this editor supports BPEI. to be tested.<br>
+- [OWM](https://github.com/kimwnasptd/OWM-Qt): editor for overworld sprites. supports BPEI.
 
 <br>
 References/useful info:
