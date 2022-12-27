@@ -1,0 +1,5 @@
+# ignore ALL .ext files
+*.bak
+
+# ignore ALL files in directoryname/
+/tools
