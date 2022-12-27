@@ -114,6 +114,18 @@ Address = 0x58000C
 Format = '''[name""13 unused. index: price: holdeffect.holdeffects param. description<""> keyitemvalue. bagkeyitem. pocket.pocketid type.|s=pocket(0=itemtype|1=itemtype|3=itemtype|4=itemtype|5=itemtype) fieldeffect<> battleusage:: battleeffect<> battleextra::]377'''
 DefaultHash = ''''''
 
+[[NamedAnchors]]
+Name = '''graphics.overworld.sprites'''
+Address = 0x502364
+Format = '''[data<[starterbytes:|h paletteid:|h secondid:|h length: width: height: info.|t|palSlot::|shadowSize:|inanimate.|reflectionPalette. footprint.owfootprints unused: distribution<> sizedraw<> animation<> sprites<`osl`> ramstore<>]1>]246'''
+DefaultHash = '''96EDECF0'''
+
+[[NamedAnchors]]
+Name = '''graphics.overworld.palettes'''
+Address = 0x50890C
+Format = '''[pal<`ucp4`> id:|h unused:]!0000000000000000'''
+DefaultHash = '''AF178A40'''
+
 #################################
 #################################
 #################################
