@@ -1,6 +1,7 @@
 # ignore ALL .ext files
 *.bak
 *.sav
+*.lnk
 
 # ignore ALL files in directoryname/
 /tools
