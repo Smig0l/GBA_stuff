@@ -32,7 +32,7 @@ DefaultHash = ''''''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.stats'''
-Address = 0x568C80
+Address = 0x31FDCC
 Format = '''[hp. attack. def. speed. spatk. spdef. type1.data.pokemon.type.names type2.data.pokemon.type.names catchRate. baseExp. evs:|t|hp:|atk:|def:|spd:|spatk:|spdef: item1:data.items.stats item2:data.items.stats genderratio.genderratiovalues steps2hatch. basehappiness. growthrate.growthrates egg1.egggroups egg2.egggroups ability1.data.abilities.names ability2.data.abilities.names runrate. dex.|t|color:::.bodycolors|noFlip. padding:]data.pokemon.names'''
 DefaultHash = ''''''
 
@@ -127,6 +127,61 @@ Name = '''graphics.overworld.palettes'''
 Address = 0x50890C
 Format = '''[pal<`ucp4`> id:|h unused:]!0000000000000000'''
 DefaultHash = '''AF178A40'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.names'''
+Address = 0x319140
+Format = '''^[name""13]355'''
+DefaultHash = '''C4BD7B07'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.tms'''
+Address = 0x612BDC
+Format = '''[move:data.pokemon.moves.names]58'''
+DefaultHash = '''5A50104C'''
+
+[[NamedAnchors]]
+Name = '''graphics.items.sprites'''
+Address = 0x610FAC
+Format = '''[sprite<`lzs4x3x3`> palette<`lzp4`>]data.items.stats+1'''
+DefaultHash = '''A0AF2FB0'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.tutors'''
+Address = 0x611BA8
+Format = '''[move:data.pokemon.moves.names]30'''
+DefaultHash = '''0B22E934'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.names'''
+Address = 0x317F8C  
+Format = '''[name""11]412'''
+DefaultHash = '''747F95CC'''
+
+[[NamedAnchors]]
+Name = '''data.pokedex.national'''
+Address = 0x31D682
+Format = '''[index:]data.pokemon.names-1'''
+DefaultHash = '''9A7B740C'''
+
+[[NamedAnchors]]
+Name = '''data.pokedex.regional'''
+Address = 0x31D34C
+Format = '''[index:]data.pokemon.names-1'''
+DefaultHash = '''9A7B740C'''
+
+[[NamedAnchors]]
+Name = '''data.pokedex.hoennToNational'''
+Address = 0x31D9B8
+Format = '''[index:]data.pokemon.names-1'''
+DefaultHash = '''9A7B740C'''
+
+[[NamedAnchors]]
+Name = '''data.pokedex.stats'''
+Address = 0x568C80
+Format = '''[species""12 height: weight: description<""> unused: pokemonScale: pokemonOffset: trainerScale: trainerOffset: unused:]387'''
+DefaultHash = '''46847C47'''
+
 
 #################################
 #################################

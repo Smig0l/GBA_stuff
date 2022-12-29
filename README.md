@@ -19,25 +19,25 @@ For the correct addresses we can refer to
     | Name                                  | BPEE                                   | BPEI                        | toml_Ref |
     | ------------------------------------- | -------------------------------------- | --------------------------- | --------- |
     |  ROMName                              | Pokemon Emerald (English)              | Pokemon Smeraldo (Italiano) |
-    |  ItemData                             | 5839A0                                 | 58000C                      |           |
-    |  AttackNames                          | 31977C                                 | 319140                      |           |
-    |  TMData                               | 616040                                 | 612BDC                      |           |
+    |  ItemData                             | 5839A0                                 | 58000C                      | ✔(data.items.stats)          |
+    |  AttackNames                          | 31977C                                 | 319140                      | ✔(data.pokemon.moves.names)          |
+    |  TMData                               | 616040                                 | 612BDC                      | ✔(data.pokemon.moves.tms)          |
     |  TotalTMsPlusHMs                      | 58                                     | 58                          |           |
     |  TotalTMs                             | 50                                     | 50                          |           |
-    |  ItemIMGData                          | 614410                                 | 610FAC                      |           |
+    |  ItemIMGData                          | 614410                                 | 610FAC                      | ✔(graphics.items.sprites)          |
     |  NumberOfItems                        | 377                                    | 377                         |           |
     |  NumberOfAttacks                      | 354                                    | 354                         |           |
-    |  MoveTutorAttacks                     | 61500C                                 | 611BA8                      |           |
+    |  MoveTutorAttacks                     | 61500C                                 | 611BA8                      | ✔(data.pokemon.moves.tutors)          |
     |  NumberOfMoveTutorAttacks             | 32                                     | 32                          |           |
-    |  PokemonNames                         | 3185C8                                 | 317F8C                      |           |
+    |  PokemonNames                         | 3185C8                                 | 317F8C                      | ✔(data.pokemon.names)          |
     |  NumberOfPokemon                      | 412                                    | 412                         |           |
-    |  NationalDexTable                     | 31DC82                                 | 31D682                      |           |
-    |  SecondDexTable                       | 31D94C                                 | 31D34C                      |           |
-    |  HoenntoNationalDex                   | 31DFB8                                 | 31D9B8                      |           |
-    |  PokedexData                          | 56B5B0                                 | 568C80                      | ✔ (data.pokemon.stats)          |
+    |  NationalDexTable                     | 31DC82                                 | 31D682                      | ✔(data.pokedex.national)          |
+    |  SecondDexTable                       | 31D94C                                 | 31D34C                      | ✔(data.pokedex.regional)         |
+    |  HoenntoNationalDex                   | 31DFB8                                 | 31D9B8                      | ✔(data.pokedex.hoennToNational)          |
+    |  PokedexData                          | 56B5B0                                 | 568C80                      | ✔(data.pokedex.stats)          |
     |  NumberOfDexEntries                   | 387                                    | 387                         |           |
     |  NumberOfRegionDex                    | 202                                    | 202                         |           |
-    |  PokemonData                          | 3203CC                                 | 31FDCC                      |           |
+    |  PokemonData                          | 3203CC                                 | 31FDCC                      | ✔(data.pokemon.stats)         |
     |  AbilityNames                         | 31B6DB                                 | 31B0DB                      | ✔ (data.abilities.name)          |
     |  NumberOfAbilities                    | 78                                     | 78                          |           |
     |  Pointer2PointersToMapBanks           | 84AA4                                  | 84AB8                       |           |
