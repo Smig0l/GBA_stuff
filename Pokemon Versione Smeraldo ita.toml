@@ -230,6 +230,169 @@ Address = 0x578A6C
 Format = '''[index.graphics.pokemon.icons.palettes]data.pokemon.names+28'''
 DefaultHash = '''87C57C4B'''
 
+[[NamedAnchors]]
+Name = '''sound.pokemon.cry.growl'''
+Address = 0x69EF24
+Format = '''^[type.|h key. length. pan_sweep. p<> attack. decay. sustain. release.]data.pokemon.names-24'''
+DefaultHash = '''69B538'''
+
+[[NamedAnchors]]
+Name = '''sound.pokemon.cry.normal'''
+Address = 0x69A380
+Format = '''^[type.|h key. length. pan_sweep. p<> attack. decay. sustain. release.]data.pokemon.names-24'''
+DefaultHash = '''39732051'''
+
+[[NamedAnchors]]
+Name = '''sound.pokemon.cry.hoennconversion'''
+Address = 0x31F01C
+Format = '''[index:]data.pokemon.names-277'''
+DefaultHash = '''B7663BC2'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.sprites.footprint'''
+Address = 0x56BD64
+Format = '''[footprint<`ucs1x2x2`>]data.pokemon.names+1'''
+DefaultHash = '''21D7E9E7'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.levelup'''
+Address = 0x328D7C
+Format = '''[movesFromLevel<[pair:|t|move::::.data.pokemon.moves.names|level:::.]!FFFF>]data.pokemon.names'''
+DefaultHash = '''BBF82701'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.evolutions'''
+Address = 0x324D1C
+Format = '''[method1:evolutionmethods arg1:|s=method1(6=data.items.stats|7=data.items.stats) species1:data.pokemon.names unused1: method2:evolutionmethods arg2:|s=method2(6=data.items.stats|7=data.items.stats) species2:data.pokemon.names unused2: method3:evolutionmethods arg3:|s=method3(6=data.items.stats|7=data.items.stats) species3:data.pokemon.names unused3: method4:evolutionmethods arg4:|s=method4(6=data.items.stats|7=data.items.stats) species4:data.pokemon.names unused4: method5:evolutionmethods arg5:|s=method5(6=data.items.stats|7=data.items.stats) species5:data.pokemon.names unused5:]data.pokemon.names'''
+DefaultHash = '''6D76E2E4'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.tmcompatibility'''
+Address = 0x31E298
+Format = '''[moves|b[]data.pokemon.moves.tms]data.pokemon.names'''
+DefaultHash = '''A122972F'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.tutorcompatibility'''
+Address = 0x611BE4 
+Format = '''[moves|b[]data.pokemon.moves.tutors]data.pokemon.names'''
+DefaultHash = '''CDD25BE9'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.sprites.coordinates.front'''
+Address = 0x3006FC
+Format = '''[size.|t|width::|height:: yOffset. render|render=graphics.battle.background.sprites/0/battlemap/|0|0|240|112|graphics.pokemon.sprites.front|144|8||yOffset-graphics.pokemon.sprites.elevation/elevation unused:]data.pokemon.names+28'''
+DefaultHash = '''7FDD7071'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.sprites.coordinates.back'''
+Address = 0x301B9C
+Format = '''[size.|t|width::|height:: yOffset. render|render=graphics.battle.background.sprites/0/battlemap/|0|0|240|112|graphics.pokemon.sprites.back|40|48||yOffset unused:]data.pokemon.names+28'''
+DefaultHash = '''D4789932'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.sprites.elevation'''
+Address = 0x305790
+Format = '''[elevation.]data.pokemon.names'''
+DefaultHash = '''052A8530'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.stats.battle'''
+Address = 0x31C298
+Format = '''[effect.moveeffectoptions power. type.data.pokemon.type.names accuracy. pp. effectAccuracy. target|b[]movetarget priority.|z info|b[]moveinfo unused. unused:]data.pokemon.moves.names'''
+DefaultHash = '''2136B223'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.stats.contest'''
+Address = 0x5888F4
+Format = '''[effect.data.pokemon.contest.effects type.data.pokemon.type.contest.names combo_key.contestcombostarter combo_a.contestcombostarter combo_b.contestcombostarter combo_c.contestcombostarter padding:]data.pokemon.moves.names'''
+DefaultHash = '''14C76745'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.contest.effects'''
+Address = 0x58940C
+Format = '''[type.contesteffects appeal. jam. unused.]contesteffectnames'''
+DefaultHash = '''A2C94B19'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.descriptions'''
+Address = 0x619038
+Format = '''[description<"">]data.pokemon.moves.names-1'''
+DefaultHash = '''BD0C8971'''
+
+[[NamedAnchors]]
+Name = '''data.abilities.descriptions'''
+Address = 0x31B4D4
+Format = '''[description<"">]data.abilities.names'''
+DefaultHash = '''F80AF0FF'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.moves.animations'''
+Address = 0x2C9CF8
+Format = '''[animation<`ase`>]data.pokemon.moves.names'''
+DefaultHash = '''7BD265EA'''
+
+[[NamedAnchors]]
+Name = '''data.battlefrontier.trainers'''
+Address = 0x5D2614
+Format = '''[facilityclass::data.battlefrontier.trainerclass trainername""8 before1:|h before2:|h before3:|h before4:|h before5:|h before6:|h win1:|h win2:|h win3:|h win4:|h win5:|h win6:|h lose1:|h lose2:|h lose3:|h lose4:|h lose5:|h lose6:|h teamoptions<[pokemon:data.battlefrontier.pokemon]!FFFF>]300'''
+DefaultHash = '''935C4A31'''
+
+[[NamedAnchors]]
+Name = '''data.battlefrontier.pokemon'''
+Address = 0x5D6304
+Format = '''[species:data.pokemon.names move1:data.pokemon.moves.names move2:data.pokemon.moves.names move3:data.pokemon.moves.names move4:data.pokemon.moves.names item.data.battlefrontier.items ev|b[]battletowerEvFlags nature::data.pokemon.natures.names]882'''
+DefaultHash = '''4E22AB98'''
+
+[[NamedAnchors]]
+Name = '''data.battlefrontier.items'''
+Address = 0x5CB7F8
+Format = '''[item:data.items.stats]63'''
+DefaultHash = '''C443E82C'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.frontier.banned'''
+Address = 0x60E836
+Format = '''[species:data.pokemon.names]!FFFF'''
+DefaultHash = '''C35563E2'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.egg'''
+Address = 0x32A7D8
+Format = '''`egg`'''
+DefaultHash = '''BB140A91'''
+
+[[NamedAnchors]]
+Name = '''data.trainers.classes.names'''
+Address = 0x30F698
+Format = '''[name""13]66'''
+DefaultHash = '''691941BB'''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.trades'''
+Address = 0x3388CC
+Format = '''[nickname""12 receive:data.pokemon.names hp. attack. defense. speed. spatk. spdef. abilitynum:: trainerid:: cool. tough. beauty. smart. cute. unused. unused: personality:: helditem:data.items.stats mailnum. trainername""11 trainergender.trainergender sheen. give::data.pokemon.names]4'''
+DefaultHash = '''B903EAAF'''
+
+[[NamedAnchors]]
+Name = '''data.pokedex.search.alpha'''
+Address = 0x5593E8
+Format = '''[species:data.pokedex.national]data.pokedex.national'''
+DefaultHash = '''742C6C04'''
+
+[[NamedAnchors]]
+Name = '''data.pokedex.search.weight'''
+Address = 0x55971E
+Format = '''[species:data.pokedex.national]data.pokedex.national-25'''
+DefaultHash = '''372DB1AA'''
+
+[[NamedAnchors]]
+Name = '''data.pokedex.search.size'''
+Address = 0x559A22
+Format = '''[species:data.pokedex.national]data.pokedex.national-25'''
+DefaultHash = '''372DB1AA'''
+
+
 #################################
 #################################
 #################################

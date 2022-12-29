@@ -121,29 +121,29 @@ For the correct addresses we can refer to
     |  AnimDelayTable                       | 329B87                                 | 329587                      |         |
     |  IconPointerTable                     | 57BCA8                                 | 57838C                      |  graphics.pokemon.icons.sprites         |
     |  IconPalTable                         | 57C388                                 | 578A6C                      |  graphics.pokemon.icons.index         |
-    |  CryTable                             | 69DCF4                                 | 69A380                      |           |
-    |  CryTable2                            | 69EF24                                 | 69B538                      |           |
-    |  CryConversionTable                   | 31F61C                                 | 31F01C                      |           |
-    |  FootPrintTable                       | 56E694                                 | 56BD64                      |           |
-    |  PokemonAttackTable                   | 32937C                                 | 328D7C                      |           |
-    |  PokemonEvolutions                    | 32531C                                 | 324D1C                      |           |
-    |  TMHMCompatibility                    | 31E898                                 | 31E298                      |           |
+    |  CryTable                             | 69DCF4                                 | 69A380                      |  sound.pokemon.cry.normal         |
+    |  CryTable2                            | 69EF24                                 | 69B538                      |  sound.pokemon.cry.growl         |
+    |  CryConversionTable                   | 31F61C                                 | 31F01C                      |  sound.pokemon.cry.hoennconversion         |
+    |  FootPrintTable                       | 56E694                                 | 56BD64                      |  graphics.pokemon.sprites.footprint         |
+    |  PokemonAttackTable                   | 32937C                                 | 328D7C                      |  data.pokemon.moves.levelup         |
+    |  PokemonEvolutions                    | 32531C                                 | 324D1C                      |  data.pokemon.evolutions         |
+    |  TMHMCompatibility                    | 31E898                                 | 31E298                      |   data.pokemon.moves.tmcompatibility        |
     |  TMHMLenPerPoke                       | 8                                      | 8                           |           |
-    |  MoveTutorCompatibility               | 615048                                 | 611BE4                      |           |
-    |  EnemyYTable                          | 300D38                                 | 3006FC                      |           |
-    |  PlayerYTable                         | 3021D8                                 | 301B9C                      |           |
-    |  EnemyAltitudeTable                   | 305DCC                                 | 305790                      |           |
-    |  AttackData                           | 31C898                                 | 31C298                      |           |
-    |  ContestMoveData                      | 58C2B4                                 | 5888F4                      |           |
-    |  ContestMoveEffectData                | 58CDCC                                 | 58940C                      |           |
-    |  AttackDescriptionTable               | 61C524                                 | 619038                      |           |
-    |  AbilityDescriptionTable              | 31BAD4                                 | 31B4D4                      |           |
+    |  MoveTutorCompatibility               | 615048                                 | 611BE4                      |  data.pokemon.moves.tutorcompatibility         |
+    |  EnemyYTable                          | 300D38                                 | 3006FC                      |  graphics.pokemon.sprites.coordinates.front         |
+    |  PlayerYTable                         | 3021D8                                 | 301B9C                      |  graphics.pokemon.sprites.coordinates.back         |
+    |  EnemyAltitudeTable                   | 305DCC                                 | 305790                      |  graphics.pokemon.sprites.elevation         |
+    |  AttackData                           | 31C898                                 | 31C298                      |  data.pokemon.moves.stats.battle         |
+    |  ContestMoveData                      | 58C2B4                                 | 5888F4                      |  data.pokemon.moves.stats.contest         |
+    |  ContestMoveEffectData                | 58CDCC                                 | 58940C                      |  data.pokemon.contest.effects         |
+    |  AttackDescriptionTable               | 61C524                                 | 619038                      |  data.pokemon.moves.descriptions         |
+    |  AbilityDescriptionTable              | 31BAD4                                 | 31B4D4                      |  data.abilities.descriptions         |
     |  StarterPokemon                       | 5B1DF8                                 | 5AE994                      | ✔ (scripts.newgame.starters.pokemon)          |
     |  StarterPokemonLevel                  | B1178                                  | B118C                       |           |
     |  StarterEncounterPokemon              | 32706                                  | 3270A                       |           |
     |  StarterEncounterPokemonLevel         | 32714                                  | 32718                       |           |
-    |  AttackAnimationTable                 | 2C8D6C                                 | 2C9CF8                      |           |
-    |  BattleFrontierTrainers               | 5D5ACC                                 | 5D2614                      |           |
+    |  AttackAnimationTable                 | 2C8D6C                                 | 2C9CF8                      |  graphics.pokemon.moves.animations         |
+    |  BattleFrontierTrainers               | 5D5ACC                                 | 5D2614                      |  data.battlefrontier.trainers         |
     |  SlateportBattleTentTrainers          | 5DDA14                                 | 5DA55C                      |           |
     |  VerdanturfBattleTentTrainers         | 5DE610                                 | 5DB158                      |           |
     |  FallarborBattleTentTrainers          | 5DF084                                 | 5dbbcc                      |           |
@@ -151,7 +151,7 @@ For the correct addresses we can refer to
     |  NumberOfSlateportBattleTentTrainers  | 30                                     | 30                          |           |
     |  NumberOfVerdanturfBattleTentTrainers | 30                                     | 30                          |           |
     |  NumberOfFallarborBattleTentTrainers  | 30                                     | 30                          |           |
-    |  BattleFrontierPokemon                | 5D97BC                                 | 5D6304                      |           |
+    |  BattleFrontierPokemon                | 5D97BC                                 | 5D6304                      | data.battlefrontier.pokemon          |
     |  SlateportBattleTentPokemon           | 5DE02C                                 | 5DAB74                      |           |
     |  VerdanturfBattleTentPokemon          | 5DEC28                                 | 5DB770                      |           |
     |  FallarborBattleTentPokemon           | 5DF69C                                 | 5DC1E4                      |           |
@@ -159,8 +159,8 @@ For the correct addresses we can refer to
     |  NumberOfSlateportBattleTentPokemon   | 70                                     | 70                          |           |
     |  NumberOfVerdanturfBattleTentPokemon  | 45                                     | 45                          |           |
     |  NumberOfFallarborBattleTentPokemon   | 45                                     | 45                          |           |
-    |  BattleFrontierHeldItems              | 5CECB0                                 | 5CB7F8                      |           |
-    |  BattleFrontierBanList                | 611C9A                                 | 60E836                      |           |
+    |  BattleFrontierHeldItems              | 5CECB0                                 | 5CB7F8                      |  data.battlefrontier.items         |
+    |  BattleFrontierBanList                | 611C9A                                 | 60E836                      |  data.pokemon.frontier.banned         |
     |  NumberOfBattlefrontierHeldItems      | 62                                     | 62                          |           |
     |  NumberOfTilesInTilset3DF71C          | 8F                                     |                             |           |
     |  NumberOfTilesInTilset3DF734          | 15D                                    |                             |           |
@@ -309,22 +309,22 @@ For the correct addresses we can refer to
     |  Evolution255Param                    | evolvesbutnoparms                      |                             |           |
     |  EvolutionName253                     | Primal Reversion                       |                             |           |
     |  Evolution253Param                    | evolvesbasedonvalue                    |                             |           |
-    |  EggMoveTable                         | 32ADD8                                 | 32A7D8                      |           |
+    |  EggMoveTable                         | 32ADD8                                 | 32A7D8                      |  data.pokemon.moves.egg        |
     |  EggMoveTableLimiter                  | 70464                                  | 70464                       |           |
     |  TrainerTable                         | 310030                                 | 30FA1C                      | ✔  (data.trainers.stats)          |
     |  NumberOfTrainers                     | 854                                    | 854                         |           |
-    |  TrainerClasses                       | 30FCD4                                 | 30F698                      |           |
+    |  TrainerClasses                       | 30FCD4                                 | 30F698                      | data.trainers.classes.names          |
     |  NumberOfTrainerClasses               | 66                                     | 66                          |           |
     |  TrainerImageTable                    | 305654                                 | 305018                      | ✔ (graphics.trainers.sprites.front)          |
     |  NumberOfTrainerImages                | 92                                     | 92                          |           |
     |  TrainerPaletteTable                  | 30593C                                 | 305300                      | ✔ (graphics.trainers.palettes.front)          |
     |  TrainerMoneyTable                    | 31AEB8                                 |                             |           |
     |  DexSizeTrainerSprite                 | 71                                     | 71                          |           |
-    |  TradeData                            | 338ED0                                 | 3388CC                      |           |
+    |  TradeData                            | 338ED0                                 | 3388CC                      |   data.pokemon.trades        |
     |  NumberOfTrades                       | 4                                      | 4                           |           |
-    |  PokedexAlphabetTable                 | 55C6A4                                 | 5593E8                      |           |
-    |  PokedexLightestTable                 | 55C9DA                                 | 55971E                      |           |
-    |  PokedexSmallestTable                 | 55CCDE                                 | 559A22                      |           |
+    |  PokedexAlphabetTable                 | 55C6A4                                 | 5593E8                      |  data.pokedex.search.alpha         |
+    |  PokedexLightestTable                 | 55C9DA                                 | 55971E                      |  data.pokedex.search.weight         |
+    |  PokedexSmallestTable                 | 55CCDE                                 | 559A22                      |  data.pokedex.search.size         |
     |  PokedexTypeTable                     | 0                                      | 0                           |           |
     ```
     
