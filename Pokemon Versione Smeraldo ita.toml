@@ -182,6 +182,30 @@ Address = 0x568C80
 Format = '''[species""12 height: weight: description<""> unused: pokemonScale: pokemonOffset: trainerScale: trainerOffset: unused:]387'''
 DefaultHash = '''46847C47'''
 
+[[NamedAnchors]]
+Name = '''graphics.pokemon.sprites.front'''
+Address = 0x300DDC
+Format = '''^[sprite<`lzs4x8x8`> uncompressedLength: index:]data.pokemon.names+28'''
+DefaultHash = '''F83847D4'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.sprites.back'''
+Address = 0x30227C
+Format = '''[sprite<`lzs4x8x8`> uncompressedLength: index:]data.pokemon.names+28'''
+DefaultHash = '''8DF98E0A'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.palettes.normal'''
+Address = 0x30303C
+Format = '''^[palette<`lzp4`> index: unused:]data.pokemon.names+28'''
+DefaultHash = '''60567F56'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.palettes.shiny'''
+Address = 0x303DFC 
+Format = '''[palette<`lzp4`> index: unused:]data.pokemon.names+28'''
+DefaultHash = '''765677D6'''
+
 
 #################################
 #################################

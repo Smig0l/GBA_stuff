@@ -111,11 +111,11 @@ For the correct addresses we can refer to
     |  NumberOfMapsInBank33                 | 0                                      |                             |           |
     |  MapLabelData                         | 5A1480                                 | 59DEEC                      |           |
     |  NumberOfMapLabels                    | 213                                    | 213                         |           |
-    |  PokemonFrontSprites                  | 301418                                 | 300DDC                      |           |
-    |  PokemonBackSprites                   | 3028B8                                 | 30227C                      |           |
-    |  PokemonNormalPal                     | 303678                                 | 30303C                      |           |
-    |  PokemonShinyPal                      | 304438                                 | 303DFC                      |           |
-    |  PokemonAnimations                    | 30A18C                                 | 309B50                      |           |
+    |  PokemonFrontSprites                  | 301418                                 | 300DDC                      | TOBECHECKED graphics.pokemon.sprites.front          |
+    |  PokemonBackSprites                   | 3028B8                                 | 30227C                      | graphics.pokemon.sprites.back          |
+    |  PokemonNormalPal                     | 303678                                 | 30303C                      | graphics.pokemon.palettes.normal          |
+    |  PokemonShinyPal                      | 304438                                 | 303DFC                      | graphics.pokemon.palettes.shiny          |
+    |  PokemonAnimations                    | 30A18C                                 | 309B50                      | ???? graphics.pokemon.sprites.front          |
     |  FrontAnimationTable                  | 3299EC                                 | 3293EC                      |           |
     |  BackAnimTable                        | 60A8C8                                 | 607464                      |           |
     |  AnimDelayTable                       | 329B87                                 | 329587                      |           |
