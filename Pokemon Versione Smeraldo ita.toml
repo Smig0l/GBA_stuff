@@ -184,7 +184,7 @@ DefaultHash = '''46847C47'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.sprites.front'''
-Address = 0x300DDC
+Address = 0x309B50
 Format = '''^[sprite<`lzs4x8x8`> uncompressedLength: index:]data.pokemon.names+28'''
 DefaultHash = '''F83847D4'''
 
@@ -206,6 +206,29 @@ Address = 0x303DFC
 Format = '''[palette<`lzp4`> index: unused:]data.pokemon.names+28'''
 DefaultHash = '''765677D6'''
 
+[[NamedAnchors]]
+Name = '''graphics.pokemon.animations.front'''
+Address = 0x3293EC
+Format = '''[index.graphics.pokemon.animations.options]data.pokemon.names-1'''
+DefaultHash = '''760F38B9'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.animations.back'''
+Address = 0x607464
+Format = '''[index.]data.pokemon.names'''
+DefaultHash = '''FCE8C6AB'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.icons.sprites'''
+Address = 0x57838C
+Format = '''[icon<`ucs4x4x8|graphics.pokemon.icons.index`>]data.pokemon.names+28'''
+DefaultHash = '''D2DEB9B6'''
+
+[[NamedAnchors]]
+Name = '''graphics.pokemon.icons.index'''
+Address = 0x578A6C
+Format = '''[index.graphics.pokemon.icons.palettes]data.pokemon.names+28'''
+DefaultHash = '''87C57C4B'''
 
 #################################
 #################################

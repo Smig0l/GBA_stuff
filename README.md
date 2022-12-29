@@ -111,16 +111,16 @@ For the correct addresses we can refer to
     |  NumberOfMapsInBank33                 | 0                                      |                             |           |
     |  MapLabelData                         | 5A1480                                 | 59DEEC                      |           |
     |  NumberOfMapLabels                    | 213                                    | 213                         |           |
-    |  PokemonFrontSprites                  | 301418                                 | 300DDC                      | TOBECHECKED graphics.pokemon.sprites.front          |
-    |  PokemonBackSprites                   | 3028B8                                 | 30227C                      | graphics.pokemon.sprites.back          |
-    |  PokemonNormalPal                     | 303678                                 | 30303C                      | graphics.pokemon.palettes.normal          |
-    |  PokemonShinyPal                      | 304438                                 | 303DFC                      | graphics.pokemon.palettes.shiny          |
-    |  PokemonAnimations                    | 30A18C                                 | 309B50                      | ???? graphics.pokemon.sprites.front          |
-    |  FrontAnimationTable                  | 3299EC                                 | 3293EC                      |           |
-    |  BackAnimTable                        | 60A8C8                                 | 607464                      |           |
-    |  AnimDelayTable                       | 329B87                                 | 329587                      |           |
-    |  IconPointerTable                     | 57BCA8                                 | 57838C                      |           |
-    |  IconPalTable                         | 57C388                                 | 578A6C                      |           |
+    |  PokemonFrontSprites                  | 301418                                 | 300DDC                      | ????          |
+    |  PokemonBackSprites                   | 3028B8                                 | 30227C                      | ✔ graphics.pokemon.sprites.back          |
+    |  PokemonNormalPal                     | 303678                                 | 30303C                      | ✔ graphics.pokemon.palettes.normal          |
+    |  PokemonShinyPal                      | 304438                                 | 303DFC                      | ✔ graphics.pokemon.palettes.shiny          |
+    |  PokemonAnimations                    | 30A18C                                 | 309B50                      | ✔ graphics.pokemon.sprites.front          |
+    |  FrontAnimationTable                  | 3299EC                                 | 3293EC                      |  graphics.pokemon.animations.front         |
+    |  BackAnimTable                        | 60A8C8                                 | 607464                      |  graphics.pokemon.animations.back         |
+    |  AnimDelayTable                       | 329B87                                 | 329587                      |         |
+    |  IconPointerTable                     | 57BCA8                                 | 57838C                      |  graphics.pokemon.icons.sprites         |
+    |  IconPalTable                         | 57C388                                 | 578A6C                      |  graphics.pokemon.icons.index         |
     |  CryTable                             | 69DCF4                                 | 69A380                      |           |
     |  CryTable2                            | 69EF24                                 | 69B538                      |           |
     |  CryConversionTable                   | 31F61C                                 | 31F01C                      |           |
