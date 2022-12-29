@@ -9,12 +9,13 @@
 Speaking with the developer at the moment only "BPEE" is supported (pokemon emerald english version).
 
 But we can [edit](https://github.com/haven1433/HexManiacAdvance/wiki/TOML-and-You:-How-Metadata-works) the .toml file that is created (named "gbaromname.toml") when the tool is started.<br>
-For the correct addresses we can refer to
+For the correct addresses we can refer to [this](https://github.com/Gamer2020/PokemonGameEditor/blob/master/roms.ini) list of values.
+
+
 <details>
-    <summary>
-        [this](https://github.com/Gamer2020/PokemonGameEditor/blob/master/roms.ini) list of values
-    </summary>
-    
+    <summary> <i>click</> to expand the table with addresses and ref to the .toml  </summary>
+ 
+
     ```
     | Name                                  | BPEE                                   | BPEI                        | toml_Ref |
     | ------------------------------------- | -------------------------------------- | --------------------------- | --------- |
@@ -377,7 +378,8 @@ For the correct addresses we can refer to
 
 <br>
 References/useful info:
-[Forum in ita](https://www.pokemonhacking.it/showthread.php?tid=4014).<br>
-scripting: https://www.pokecommunity.com/showthread.php?t=164276
+
+- [Forum in ita](https://www.pokemonhacking.it/showthread.php?tid=4014).
+- scripting [guide](https://www.pokecommunity.com/showthread.php?t=164276).
 
 
