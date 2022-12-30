@@ -37,6 +37,13 @@ Format = '''[class.data.trainers.classes.names moneyrate. unused:]56'''
 DefaultHash = '''672D068B'''
 
 [[NamedAnchors]]
+Name = '''data.battlefrontier.trainerclass'''
+Address = 0x31EFCA
+Format = '''[class.data.trainers.classes.names]82'''
+DefaultHash = '''442A73F3'''
+
+
+[[NamedAnchors]]
 Name = '''data.pokemon.stats'''
 Address = 0x31FDCC
 Format = '''[hp. attack. def. speed. spatk. spdef. type1.data.pokemon.type.names type2.data.pokemon.type.names catchRate. baseExp. evs:|t|hp:|atk:|def:|spd:|spatk:|spdef: item1:data.items.stats item2:data.items.stats genderratio.genderratiovalues steps2hatch. basehappiness. growthrate.growthrates egg1.egggroups egg2.egggroups ability1.data.abilities.names ability2.data.abilities.names runrate. dex.|t|color:::.bodycolors|noFlip. padding:]data.pokemon.names'''
