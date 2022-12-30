@@ -103,37 +103,29 @@ Address = 0x59E8A8
 Format = '''[bank. map. flight.]data.maps.names-0-163'''
 DefaultHash = '''E8BB5031'''
 
+[[NamedAnchors]]
+Name = '''data.maps.theme.popup'''
+Address = 0x57BB48
+Format = '''[theme.mapnamepopuptheme]data.maps.names+0-109'''
+DefaultHash = ''''''
 
-##########################TOBEFIXED(REPOINTED)
+[[NamedAnchors]]
+Name = '''graphics.maps.names.popup.palettes'''
+Address = 0x57BA68
+Format = '''`ucp4:012345`'''
+DefaultHash = ''''''
 
+[[NamedAnchors]]
+Name = '''graphics.maps.names.popup.outline'''
+Address = 0x57A3E8
+Format = '''`ucs4x6x30|graphics.maps.names.popup.palettes`'''
+DefaultHash = ''''''
 
-
-#[[NamedAnchors]]
-#Name = '''data.maps.theme.popup'''
-#Address = 0x57F464
-#Format = '''[theme.mapnamepopuptheme]data.maps.names+0-109'''
-#DefaultHash = ''''''
-#
-#[[NamedAnchors]]
-#Name = '''graphics.maps.names.popup.palettes'''
-#Address = 0x57F384
-#Format = '''`ucp4:012345`'''
-#DefaultHash = ''''''
-#
-#[[NamedAnchors]]
-#Name = '''graphics.maps.names.popup.outline'''
-#Address = 0x57DD04
-#Format = '''`ucs4x6x30|graphics.maps.names.popup.palettes`'''
-#DefaultHash = ''''''
-#
-#[[NamedAnchors]]
-#Name = '''graphics.maps.names.popup.background'''
-#Address = 0x57C684
-#Format = '''`ucs4x10x18|graphics.maps.names.popup.palettes`'''
-#DefaultHash = ''''''
-#
-
-#############################
+[[NamedAnchors]]
+Name = '''graphics.maps.names.popup.background'''
+Address = 0x578D68
+Format = '''`ucs4x10x18|graphics.maps.names.popup.palettes`'''
+DefaultHash = ''''''
 
 [[NamedAnchors]]
 Name = '''data.items.stats'''
