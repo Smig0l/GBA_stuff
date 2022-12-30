@@ -91,6 +91,18 @@ Address = 0x47EB18
 Format = '''[layout<>]441'''
 DefaultHash = '''B9FB1FCC'''
 
+[[NamedAnchors]]
+Name = '''data.maps.fly.spawn'''
+Address = 0x59BF00
+Format = '''[bank. map. x: y: unused:]22'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.maps.fly.connections'''
+Address = 0x59E8A8
+Format = '''[bank. map. flight.]data.maps.names-0-163'''
+DefaultHash = '''E8BB5031'''
+
 
 ##########################TOBEFIXED(REPOINTED)
 
@@ -120,17 +132,7 @@ DefaultHash = '''B9FB1FCC'''
 #Format = '''`ucs4x10x18|graphics.maps.names.popup.palettes`'''
 #DefaultHash = ''''''
 #
-#[[NamedAnchors]]
-#Name = '''data.maps.fly.spawn'''
-#Address = 0x59F53C
-#Format = '''[bank. map. x: y: unused:]22'''
-#DefaultHash = ''''''
-#
-#[[NamedAnchors]]
-#Name = '''data.maps.fly.connections'''
-#Address = 0x5A1E3C
-#Format = '''[bank. map. flight.]data.maps.names-0-163'''
-#DefaultHash = ''''''
+
 #############################
 
 [[NamedAnchors]]
