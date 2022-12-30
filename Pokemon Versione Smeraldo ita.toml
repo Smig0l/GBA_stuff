@@ -26,7 +26,7 @@ DefaultHash = ''''''
 
 [[NamedAnchors]]
 Name = '''data.trainers.stats'''
-Address = 0x30FA1C
+Address = 0x30F9F4
 Format = '''[structType.trainerStructType class.data.trainers.classes.names introMusicAndGender.|t|music:::.|female. sprite.graphics.trainers.sprites.front name""12 prizeMoney|=4*(data.trainers.money/class=class)/moneyrate*pokemon/last/level item1:data.items.stats item2:data.items.stats item3:data.items.stats item4:data.items.stats doubleBattle::doublebattleflag ai|b[]traineraibits | pokemonCount:: pokemon<`tpt`>]855'''
 DefaultHash = ''''''
 
