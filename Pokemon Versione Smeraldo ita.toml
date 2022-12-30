@@ -79,13 +79,23 @@ Address = 0x4832BC
 Format = '''[maps<[map<[layout<[width:: height:: borderblock<[border:|h]4> blockmap<`blm`> blockdata1<[isCompressed. isSecondary. padding: tileset<> pal<`ucp4:0123456789ABCDEF`> blockset<> attributes<> animation<>]1> blockdata2<[isCompressed. isSecondary. padding: tileset<> pal<`ucp4:0123456789ABCDEF`> blockset<> attributes<> animation<>]1>]1> events<[objectCount.100 warpCount.100 scriptCount.100 signpostCount.100 objects<[id. graphics. unused:1 x:|z y:|z elevation.10 moveType. range:|t|x::|y:: trainerType: trainerRangeOrBerryID: script<`xse`> flag: unused:]/objectCount> warps<[x:|z y:|z elevation.10 warpID. map. bank.]/warpCount> scripts<[x:|z y:|z elevation:10 trigger: index:: script<`xse`>]/scriptCount> signposts<[x:|z y:|z elevation.10 kind. unused:1 arg::|h]/signpostCount>]1> mapscripts<[type. pointer<>]!00> connections<[count:: connections<[direction:: offset:: mapGroup. mapNum. unused:]/count>]1> music:songnames layoutID:data.maps.layouts+1 regionSectionID.data.maps.names cave. weather. mapType. unused: flags.|t|allowBiking.|allowEscaping.|allowRunning.|showMapName. battleType.]1>]?>]34'''
 DefaultHash = ''''''
 
+[[NamedAnchors]]
+Name = '''data.maps.names'''
+Address = 0x59DEE8
+Format = '''[x. y. width. height. name<"">]213'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.maps.layouts'''
+Address = 0x47EB18
+Format = '''[layout<>]441'''
+DefaultHash = '''B9FB1FCC'''
+
+
 ##########################TOBEFIXED(REPOINTED)
-#[[NamedAnchors]]
-#Name = '''data.maps.names'''
-#Address = 0x5A147C
-#Format = '''[x. y. width. height. name<"">]213'''
-#DefaultHash = ''''''
-#
+
+
+
 #[[NamedAnchors]]
 #Name = '''data.maps.theme.popup'''
 #Address = 0x57F464
@@ -1358,7 +1368,7 @@ Destination = '''data.items.stats'''
 [[GotoShortcut]]
 Name = '''Maps'''
 Image = '''data.maps.banks/0/maps/9/map/0/layout/0/blockmap/'''
-Destination = '''maps.0-9 (LITTLEROOT TOWN)'''
+Destination = '''maps.0-9 (ALBANOVA)'''
 
 #################################
 [[TableGroup]]
