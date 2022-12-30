@@ -312,7 +312,7 @@ For the correct addresses we can refer to [this](https://github.com/Gamer2020/Po
     |  Evolution253Param                    | evolvesbasedonvalue                    |                             |           |
     |  EggMoveTable                         | 32ADD8                                 | 32A7D8                      |  data.pokemon.moves.egg        |
     |  EggMoveTableLimiter                  | 70464                                  | 70464                       |           |
-    |  TrainerTable                         | 310030                                 | 30FA1C                      | ✔  (data.trainers.stats)          |
+    |  TrainerTable                         | 310030                                 | 30FA1C(wrong #2)>30F9F4     | ✔  (data.trainers.stats)          |
     |  NumberOfTrainers                     | 854                                    | 854                         |           |
     |  TrainerClasses                       | 30FCD4                                 | 30F698                      | data.trainers.classes.names          |
     |  NumberOfTrainerClasses               | 66                                     | 66                          |           |
