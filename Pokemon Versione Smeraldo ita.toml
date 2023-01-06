@@ -1353,6 +1353,34 @@ DefaultHash = '''79BD029C'''
    '''MonBoxPosition''',
 ]
 
+[[List]]
+Name = '''pokenavTowns'''
+DefaultHash = '''1A6AE4ED'''
+0 = [
+   '''ALBANOVA''',
+   '''SOLAROSA''',
+   '''BLURUVIA''',
+   '''CUORDILAVA''',
+   '''BRUNIFOGLIA''',
+   '''MENTANIA''',
+   '''OROCEA''',
+   '''PETALIPOLI''',
+   '''PORTO SELCEPOLI SOPRA''',
+   '''PORTO SELCEPOLI SOTTO''',
+   '''CICLAMIPOLI SINISTRA''',
+   '''CICLAMIPOLI DESTRA''',
+   '''FERRUGIPOLI SOPRA''',
+   '''FERRUGIPOLI SOTTO''',
+   '''FORESTOPOLI''',
+   '''PORTO ALGHEPOLI SINISTRA''',
+   '''PORTO ALGHEPOLI DESTRA''',
+   '''VERDEAZZUPOLI SINISTRA''',
+   '''VERDEAZZUPOLI DESTRA''',
+   '''CENERIDE''',
+   '''IRIDOPOLI SOPRA''',
+   '''IRIDOPOLI SOTTO''',
+]
+
 #################################
 #################################
 [[GotoShortcut]]
