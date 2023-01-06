@@ -126,7 +126,7 @@ Address = 0x578D68
 Format = '''`ucs4x10x18|graphics.maps.names.popup.palettes`'''
 DefaultHash = ''''''
 
-[[NamedAnchors]] ##attenzione sembra riconosca solo la prima immagine
+[[NamedAnchors]] 
 Name = '''graphics.townmap.pokenav.zoom.tilemaps'''
 Address = 0x61FAB8
 Format = '''[id: part: tilemap<`lzm4x10x10|graphics.townmap.pokenav.zoom.tileset`>]pokenavTowns'''
