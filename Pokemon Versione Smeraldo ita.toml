@@ -126,6 +126,24 @@ Address = 0x578D68
 Format = '''`ucs4x10x18|graphics.maps.names.popup.palettes`'''
 DefaultHash = ''''''
 
+[[NamedAnchors]] ##attenzione sembra riconosca solo la prima immagine
+Name = '''graphics.townmap.pokenav.zoom.tilemaps'''
+Address = 0x61FAB8
+Format = '''[id: part: tilemap<`lzm4x10x10|graphics.townmap.pokenav.zoom.tileset`>]pokenavTowns'''
+DefaultHash = '''FA65AE50'''
+
+[[NamedAnchors]]
+Name = '''graphics.townmap.pokenav.zoom.tileset'''
+Address = 0x61F228
+Format = '''`lzt4|graphics.townmap.pokenav.zoom.palette`'''
+DefaultHash = '''752FCB99'''
+
+[[NamedAnchors]]
+Name = '''graphics.townmap.pokenav.zoom.palette'''
+Address = 0xDC9240
+Format = '''`ucp4:3`'''
+DefaultHash = '''B1DDC382'''
+
 [[NamedAnchors]]
 Name = '''data.items.stats'''
 Address = 0x58000C
