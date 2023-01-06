@@ -24,6 +24,132 @@ Address = 0x0000B0
 Format = '''`asc`2'''
 DefaultHash = ''''''
 
+#[[NamedAnchors]]
+#Name = '''data.header.romname'''
+#Address = 0x000108
+#Format = '''`asc`32'''
+#DefaultHash = ''''''
+
+#[[NamedAnchors]]
+#Name = '''sound.newgame.titlescreen.song'''
+#Address = 0x0AAAE8
+#Format = '''[track::songnames]1'''
+#DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.names'''
+Address = 0x317F8C
+Format = '''[name""11]412'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.names'''
+Address = 0x319140
+Format = '''^[name""13]355'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.abilities.names'''
+Address = 0x31B0DB
+Format = '''[name""13]78'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.trainers.classes.names'''
+Address = 0x30F698
+Format = '''[name""13]66'''
+DefaultHash = ''''''
+
+#[[NamedAnchors]]
+#Name = '''data.pokemon.type.names'''
+#Address = 0x31AE38
+#Format = '''^[name""7]data.pokemon.type.length'''
+#DefaultHash = '''0E9784EA'''
+
+[[NamedAnchors]]
+Name = '''data.items.stats'''
+Address = 0x58000C
+Format = '''[name""13 unused. index: price: holdeffect.holdeffects param. description<""> keyitemvalue. bagkeyitem. pocket.pocketid type.|s=pocket(0=itemtype|1=itemtype|3=itemtype|4=itemtype|5=itemtype) fieldeffect<> battleusage:: battleeffect<> battleextra::]377'''
+DefaultHash = ''''''
+
+#[[NamedAnchors]]
+#Name = '''data.pokemon.type.contest.names'''
+#Address = 0x58BAF0
+#Format = '''[name<"">]5'''
+#DefaultHash = '''887BD14E'''
+
+[[NamedAnchors]]
+Name = '''data.abilities.descriptions'''
+Address = 0x31B4D4
+Format = '''[description<"">]data.abilities.names'''
+DefaultHash = ''''''
+
+[[NamedAnchors]]
+Name = '''data.pokemon.moves.descriptions'''
+Address = 0x619038
+Format = '''[description<"">]data.pokemon.moves.names-1'''
+DefaultHash = ''''''
+
+#[[NamedAnchors]]
+#Name = '''scripts.text.multichoice'''
+#Address = 0x58B760
+#Format = '''[options<[text<""> unused::]/count> count::]114'''
+#DefaultHash = '''4374F5BC'''
+
+#[[NamedAnchors]]
+#Name = '''scripts.text.scrolling.multichoice'''
+#Address = 0x5B2CF0
+#Format = '''[text0<""> text1<""> text2<""> text3<""> text4<""> text5<""> text6<""> text7<""> text8<""> text9<""> textA<""> textB<""> textC<""> textD<""> textE<""> textF<"">]13'''
+#DefaultHash = '''9BAB4D5D'''
+
+#[[NamedAnchors]]
+#Name = '''data.pokemon.natures.names'''
+#Address = 0x61CB50
+#Format = '''[name<"">]25'''
+#DefaultHash = '''60523DF3'''
+
+#[[NamedAnchors]]
+#Name = '''data.menus.text.pc'''
+#Address = 0x57276C
+#Format = '''[text<""> data::]31'''
+#DefaultHash = '''9439D8EA'''
+
+#[[NamedAnchors]]
+#Name = '''scripts.newgame.names.male'''
+#Address = 0x2FF128
+#Format = '''[name<"">]20'''
+#DefaultHash = '''D5755A3A'''
+
+#[[NamedAnchors]]
+#Name = '''scripts.newgame.names.female'''
+#Address = 0x2FF178
+#Format = '''[name<"">]20'''
+#DefaultHash = '''D5755A3A'''
+
+#[[NamedAnchors]]
+#Name = '''scripts.newgame.starters.pokemon'''
+#Address = 0x5B1DF8
+#Format = '''[option:data.pokemon.names]scripts.newgame.starters.count'''
+#DefaultHash = '''0B1A0708'''
+
+#[[NamedAnchors]]
+#Name = '''scripts.newgame.starters.labels'''
+#Address = 0x5B1DF2
+#Format = '''[x. y.]scripts.newgame.starters.count'''
+#DefaultHash = '''27369F4E'''
+
+#[[NamedAnchors]]
+#Name = '''scripts.newgame.starters.pokeballs'''
+#Address = 0x5B1DEC
+#Format = '''[x. y.]scripts.newgame.starters.count'''
+#DefaultHash = '''27369F4E'''
+
+#[[NamedAnchors]]
+#Name = '''scripts.newgame.starters.pointer'''
+#Address = 0x5B1E28
+#Format = '''[x. y.]scripts.newgame.starters.count'''
+#DefaultHash = '''27369F4E'''
+
 [[NamedAnchors]]
 Name = '''data.trainers.stats'''
 Address = 0x30F9F4
@@ -48,11 +174,7 @@ Address = 0x31FDCC
 Format = '''[hp. attack. def. speed. spatk. spdef. type1.data.pokemon.type.names type2.data.pokemon.type.names catchRate. baseExp. evs:|t|hp:|atk:|def:|spd:|spatk:|spdef: item1:data.items.stats item2:data.items.stats genderratio.genderratiovalues steps2hatch. basehappiness. growthrate.growthrates egg1.egggroups egg2.egggroups ability1.data.abilities.names ability2.data.abilities.names runrate. dex.|t|color:::.bodycolors|noFlip. padding:]data.pokemon.names'''
 DefaultHash = ''''''
 
-[[NamedAnchors]]
-Name = '''data.abilities.names'''
-Address = 0x31B0DB
-Format = '''[name""13]78'''
-DefaultHash = ''''''
+
 
 [[NamedAnchors]]
 Name = '''scripts.newgame.starters.pokemon'''
@@ -144,11 +266,7 @@ Address = 0xDC9240
 Format = '''`ucp4:3`'''
 DefaultHash = '''B1DDC382'''
 
-[[NamedAnchors]]
-Name = '''data.items.stats'''
-Address = 0x58000C
-Format = '''[name""13 unused. index: price: holdeffect.holdeffects param. description<""> keyitemvalue. bagkeyitem. pocket.pocketid type.|s=pocket(0=itemtype|1=itemtype|3=itemtype|4=itemtype|5=itemtype) fieldeffect<> battleusage:: battleeffect<> battleextra::]377'''
-DefaultHash = ''''''
+
 
 [[NamedAnchors]]
 Name = '''graphics.overworld.sprites'''
@@ -162,11 +280,7 @@ Address = 0x50890C
 Format = '''[pal<`ucp4`> id:|h unused:]!0000000000000000'''
 DefaultHash = ''''''
 
-[[NamedAnchors]]
-Name = '''data.pokemon.moves.names'''
-Address = 0x319140
-Format = '''^[name""13]355'''
-DefaultHash = ''''''
+
 
 [[NamedAnchors]]
 Name = '''data.pokemon.moves.tms'''
@@ -186,11 +300,7 @@ Address = 0x611BA8
 Format = '''[move:data.pokemon.moves.names]30'''
 DefaultHash = ''''''
 
-[[NamedAnchors]]
-Name = '''data.pokemon.names'''
-Address = 0x317F8C
-Format = '''[name""11]412'''
-DefaultHash = ''''''
+
 
 [[NamedAnchors]]
 Name = '''data.pokedex.national'''
@@ -348,17 +458,9 @@ Address = 0x58940C
 Format = '''[type.contesteffects appeal. jam. unused.]contesteffectnames'''
 DefaultHash = ''''''
 
-[[NamedAnchors]]
-Name = '''data.pokemon.moves.descriptions'''
-Address = 0x619038
-Format = '''[description<"">]data.pokemon.moves.names-1'''
-DefaultHash = ''''''
 
-[[NamedAnchors]]
-Name = '''data.abilities.descriptions'''
-Address = 0x31B4D4
-Format = '''[description<"">]data.abilities.names'''
-DefaultHash = ''''''
+
+
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.moves.animations'''
@@ -396,11 +498,7 @@ Address = 0x32A7D8
 Format = '''`egg`'''
 DefaultHash = ''''''
 
-[[NamedAnchors]]
-Name = '''data.trainers.classes.names'''
-Address = 0x30F698
-Format = '''[name""13]66'''
-DefaultHash = ''''''
+
 
 [[NamedAnchors]]
 Name = '''data.pokemon.trades'''
